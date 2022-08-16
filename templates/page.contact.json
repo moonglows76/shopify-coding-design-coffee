@@ -47,13 +47,21 @@
             "title": "質問4: 質問ですか？",
             "answer": "回答4: 回答です。"
           }
+        },
+        "bbb19f68-064b-4a8f-b38e-0b1b5bb4ff64": {
+          "type": "faq_item",
+          "settings": {
+            "title": "質問5",
+            "answer": "回答5"
+          }
         }
       },
       "block_order": [
         "777e767e-f7ce-4458-af3b-ad419aca799c",
         "f0806b32-3402-4ca1-b1d1-659aa694bbe7",
         "ce9560ec-a1bb-40b3-afa5-10e2fd8ee4de",
-        "e7b2d92d-0cfb-49a0-a7ac-1ab5aa54cd06"
+        "e7b2d92d-0cfb-49a0-a7ac-1ab5aa54cd06",
+        "bbb19f68-064b-4a8f-b38e-0b1b5bb4ff64"
       ],
       "settings": {
         "title": "商品に関するよくあるご質問"
