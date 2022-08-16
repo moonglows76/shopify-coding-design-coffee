@@ -16,10 +16,37 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1660642028271141b4": {
+      "type": "faq",
+      "blocks": {
+        "777e767e-f7ce-4458-af3b-ad419aca799c": {
+          "type": "faq_item",
+          "settings": {
+            "title": "質問1: 配送業者はどこですか？",
+            "answer": "回答1: ヤマト運輸でのお届けとなります。"
+          }
+        },
+        "f0806b32-3402-4ca1-b1d1-659aa694bbe7": {
+          "type": "faq_item",
+          "settings": {
+            "title": "質問2: 配送先の住所を変更できますか？",
+            "answer": "回答2: 可能です。お問い合わせフォームからご連絡ください。"
+          }
+        }
+      },
+      "block_order": [
+        "777e767e-f7ce-4458-af3b-ad419aca799c",
+        "f0806b32-3402-4ca1-b1d1-659aa694bbe7"
+      ],
+      "settings": {
+        "title": "商品に関するよくあるご質問"
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "1660642028271141b4"
   ]
 }
