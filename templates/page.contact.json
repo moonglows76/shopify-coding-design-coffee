@@ -33,11 +33,19 @@
             "title": "質問2: 配送先の住所を変更できますか？",
             "answer": "回答2: 可能です。お問い合わせフォームからご連絡ください。"
           }
+        },
+        "ce9560ec-a1bb-40b3-afa5-10e2fd8ee4de": {
+          "type": "faq_item",
+          "settings": {
+            "title": "質問3: 配送料は全国一律ですか？",
+            "answer": "回答3: 配送料は全国一律1,000円となります。"
+          }
         }
       },
       "block_order": [
         "777e767e-f7ce-4458-af3b-ad419aca799c",
-        "f0806b32-3402-4ca1-b1d1-659aa694bbe7"
+        "f0806b32-3402-4ca1-b1d1-659aa694bbe7",
+        "ce9560ec-a1bb-40b3-afa5-10e2fd8ee4de"
       ],
       "settings": {
         "title": "商品に関するよくあるご質問"
