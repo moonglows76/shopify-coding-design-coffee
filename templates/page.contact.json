@@ -40,12 +40,20 @@
             "title": "質問3: 配送料は全国一律ですか？",
             "answer": "回答3: 配送料は全国一律1,000円となります。"
           }
+        },
+        "e7b2d92d-0cfb-49a0-a7ac-1ab5aa54cd06": {
+          "type": "faq_item",
+          "settings": {
+            "title": "質問4: 質問ですか？",
+            "answer": "回答4: 回答です。"
+          }
         }
       },
       "block_order": [
         "777e767e-f7ce-4458-af3b-ad419aca799c",
         "f0806b32-3402-4ca1-b1d1-659aa694bbe7",
-        "ce9560ec-a1bb-40b3-afa5-10e2fd8ee4de"
+        "ce9560ec-a1bb-40b3-afa5-10e2fd8ee4de",
+        "e7b2d92d-0cfb-49a0-a7ac-1ab5aa54cd06"
       ],
       "settings": {
         "title": "商品に関するよくあるご質問"
