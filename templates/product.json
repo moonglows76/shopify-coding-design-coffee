@@ -22,13 +22,6 @@
             "text_style": "body"
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -120,7 +113,6 @@
         "vendor",
         "title",
         "0519ac3a-e280-41a5-9e1a-242386beecae",
-        "caption",
         "price",
         "3857b03c-2725-4435-ae22-9b69ec983a56",
         "variant_picker",
