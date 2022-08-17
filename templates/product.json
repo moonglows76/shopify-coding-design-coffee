@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "0519ac3a-e280-41a5-9e1a-242386beecae": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -62,7 +69,7 @@
         "6274efee-78f3-478b-99e1-c86218ea248e": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.release_date | metafield_text }}",
+            "text": "発売日：{{ product.metafields.my_fields.release_date | metafield_text }}",
             "text_style": "body"
           }
         },
@@ -112,6 +119,7 @@
       "block_order": [
         "vendor",
         "title",
+        "0519ac3a-e280-41a5-9e1a-242386beecae",
         "caption",
         "price",
         "3857b03c-2725-4435-ae22-9b69ec983a56",
