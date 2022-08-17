@@ -59,6 +59,13 @@
           "settings": {
           }
         },
+        "6274efee-78f3-478b-99e1-c86218ea248e": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.release_date | metafield_text }}",
+            "text_style": "body"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -112,6 +119,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "6274efee-78f3-478b-99e1-c86218ea248e",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
