@@ -206,6 +206,10 @@
           {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
+          {%- when 'release_date' -%}
+            {%- if product.metafields.my_fields.release_date.value != blank -%}
+              <p>{{ block.settings.text }}</p>
+            {%- endif -%}
           {%- when 'text' -%}
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
@@ -1000,6 +1004,18 @@
         {
           "type": "paragraph",
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
+        }
+      ]
+    },
+    {
+      "type": "release_date",
+      "name": "発売日",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "発売日：",
+          "label": "発売日"
         }
       ]
     }
