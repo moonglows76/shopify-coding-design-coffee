@@ -11,8 +11,12 @@
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
           <textarea class="text-area field__input" name="note" form="cart" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
         </cart-note>
+        <p class="cart-attribute__field">
+          <input type="hidden" name="attributes[無料ラッピング希望]" value="No">
+          <input type="checkbox" id="giftRequest" name="attributes[無料ラッピング希望]" form="cart" value="Yes"{% if cart.attributes["無料ラッピング希望"] == "Yes" %} checked{% endif %}>
+          <label for="giftRequest">無料ラッピング希望</label>
+        </p>
       {%- endif -%}
-
       <div class="cart__blocks">
         {% for block in section.blocks %}
           {%- case block.type -%}
