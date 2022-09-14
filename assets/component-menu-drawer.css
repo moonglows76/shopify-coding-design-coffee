@@ -29,11 +29,16 @@ menu-drawer > details[open] > summary::before {
 }
 
 .menu-drawer {
+  /* 右から表示 */
+  transform: translateX(100%);
+  right: 0;
+  /* 左から表示 */
+  /* transform: translateX(-100%);
+  left: 0; */
+
   position: absolute;
-  transform: translateX(-100%);
   visibility: hidden;
   z-index: 3;
-  left: 0;
   top: 100%;
   width: calc(100vw - 4rem);
   padding: 0;
