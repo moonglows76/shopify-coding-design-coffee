@@ -59,12 +59,6 @@
           "settings": {
           }
         },
-        "5f4e8bf9-9634-45e5-a796-929959044382": {
-          "type": "release_date",
-          "settings": {
-            "text": "発売日：{{ product.metafields.my_fields.release_date | metafield_text }}"
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -118,7 +112,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "5f4e8bf9-9634-45e5-a796-929959044382",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
