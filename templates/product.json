@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -25,6 +18,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "ae009985-ac42-4d46-9c1e-c7cb03ea7a40": {
+          "type": "release_date",
+          "settings": {
+            "text": "発売日：{{ product.metafields.my_fields.release_date | metafield_text }}"
           }
         },
         "3857b03c-2725-4435-ae22-9b69ec983a56": {
@@ -103,10 +102,10 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "0519ac3a-e280-41a5-9e1a-242386beecae",
         "price",
+        "ae009985-ac42-4d46-9c1e-c7cb03ea7a40",
         "3857b03c-2725-4435-ae22-9b69ec983a56",
         "variant_picker",
         "quantity_selector",
