@@ -99,6 +99,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "mxpr-favorites": {
+          "type": "shopify:\/\/apps\/prime-review\/blocks\/mxpr-favorites\/f16f27f6-be6f-4f94-921b-9a297092286b",
+          "settings": {
+            "button_class": "button\nbutton--full-width\nbutton--secondary",
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -110,6 +117,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "mxpr-favorites",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
